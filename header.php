@@ -29,10 +29,17 @@
 				<span></span>
 			</button>
 			<div class="nav_container">
+				<?php if (is_home() || is_front_page()): ?>
 				<nav class="header_nav">
 					<a class="header_nav_link" href="#menu1">メニュー1</a>
 					<a class="header_nav_link" href="#menu2">メニュー2</a>
 				</nav>
+				<?php else: ?>
+					<nav class="header_nav">
+					<a class="header_nav_link" href="/">メニュー1</a>
+					<a class="header_nav_link" href="/">メニュー2</a>
+				</nav>
+				<?php endif; ?>
 			</div>
 		</div>
 	</header>
