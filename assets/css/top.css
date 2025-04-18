@@ -1,0 +1,40 @@
+#fv {
+    height:890px;
+    background-size: cover;
+    position: relative;
+    background-color: #ffffff;
+    border-bottom: solid 1px #000000;
+}
+#fv .mv_maincatch {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    color: #000000;
+    font-size: 5rem;
+    font-weight: 700;
+}
+@media screen and (max-width:640px) {
+    #fv {
+        height: 70vh;
+        margin-top: 60px;
+    }
+    #fv .mv_maincatch {
+        left: 5%;
+        font-size: 3rem;
+    }
+}
+#menu1 {
+    padding: 120px 0 0;
+    border-bottom: solid 1px #000000;
+}
+#menu2 {
+    padding: 120px 0 0;
+}
+@media screen and (max-width:640px) {
+    #menu1 {
+        padding: 60px 0 0;
+    }
+    #menu2 {
+        padding: 60px 0 0;
+    }
+}
